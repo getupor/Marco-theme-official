@@ -70,8 +70,8 @@
             <size>1 0.10</size>
 
             <text>${system.name}</text>
-            <text if="${system.name} == 'all'">OS JOGOS</text>
-            <text if="${system.name} == 'favorites'">FAVORITOS</text>
+            <text if="${system.name} == 'all'">ALL GAMES</text>
+            <text if="${system.name} == 'favorites'">FAVORITES</text>
             
             <text if="${system.name} == 'hbmame'">ARCADE HACKS</text>
             <text if="${system.name} == 'daphne'">LASERDISC</text>
@@ -150,8 +150,8 @@
             <size>1 0.10</size>
 
             <text>${system.hardwareType}</text>
-            <text if="${system.name} == 'all'">TODOS</text>
-            <text if="${system.hardwareType} == 'custom collection'">coleção do</text>
+            <text if="${system.name} == 'all'">ALL GAMES</text>
+            <text if="${system.hardwareType} == 'custom collection'">Collection</text>
             <text if="${system.name} == 'favorites'"></text>
 
             <text if="${system.name} == 'arcade'"></text>
